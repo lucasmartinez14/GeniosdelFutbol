@@ -1,0 +1,134 @@
+
+nav{
+    font-size: 30px;
+    background-color: rgb(0, 105, 23);
+    color: white;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+a{color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+h2{
+    text-align: center;
+}
+.card{
+    width: 420px;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1,4;
+    transition: all 2s;
+    padding: 10px;
+    border-bottom: 1px solid rgb(64, 230, 133);
+    border: 2px solid rgb(27, 196, 63);
+    }
+.card img{width: 100%;}
+.tarjetas{
+    width: 82vw;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.iniciofotos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+.fot{
+    width: 500px;
+}
+.limites{
+    width: 70vw;
+    margin: 10px auto;
+}
+.mesi{
+    text-align: center;
+}
+details{
+    text-align: center;
+}
+.rta li{
+    list-style: none;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 20px rgb(64, 230, 133);
+}
+a:hover{
+    color: black;
+}
+a{
+    transition: 1s;
+    text-decoration: none;
+}
+.img:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+}
+.img{
+    transition: 1s;
+}
+li{
+    list-style: none;
+}
+h1{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+
+}
+h2{
+    font-family: "Cormorant", serif;
+    font-size: 25px;
+}
+*{
+    line-height: 2;
+    font-family: "Cormorant", serif;
+    font-size: 20px;
+    padding: 0;
+    margin: 0
+}
+.card li{
+    line-height: 2;
+    font-family: "Cormorant", serif;
+    font-size: 15px;
+    padding: 0;
+    margin: 0
+}
+.card img{
+    height: 200px;
+    width: 350px;
+}
+.neymar:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 20px rgb(43, 255, 0);
+}
+.links a{
+    text-decoration: none;
+}
+.links a:hover{
+    color: blue;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    flex-wrap: wrap;
+    letter-spacing: 3px;
+}
+.titulo a:hover{
+    color: blue;
+}
+h3{
+    font-weight: bold;
+
+}
+body{
+    background-color: rgb(101, 221, 101);
+}
