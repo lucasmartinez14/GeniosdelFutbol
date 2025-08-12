@@ -40,7 +40,8 @@ h2{
     gap: 5px;
 }
 .fot{
-    width: 500px;
+    object-fit: contain;
+    width: 100%;
 }
 .limites{
     width: 70vw;
@@ -131,4 +132,19 @@ h3{
 }
 body{
     background-color: rgb(101, 221, 101);
+}
+@media(width<768px){
+    .iniciofotos{
+        width: 250px;
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .mesi img{
+      width: 65vw;
+      margin: auto;
+      height: auto;
+    }
 }
